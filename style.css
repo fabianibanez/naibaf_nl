@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	line-height: 150%;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+body {
+	background: #374FFE;
+	font-family: 'Lato', sans-serif;
+	font-size: 100%;
+	color: #ccc;
+}
+
+header {
+	width: 100%;
+	padding: 3%;
+	position: absolute;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0 1%;
+	font-weight: 700;
+	color: #fff;
+}
+
+main {
+	display: block;
+	width: 100%;
+	height: 100vh;
+}
+
+section {
+	width: 90%;
+	height: 90%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-webkit-box-shadow: 25px 25px rgba(0,0,0,0.1);
+	box-shadow: 25px 25px rgba(0,0,0,0.1);
+	background: #232323;
+}
+
+article {
+	width: 50%;
+	height: 100%;
+	padding: 10%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+}
+
+article:first-of-type {
+	background: url(images/me.png) center center;
+	background-size: cover;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 4rem;
+	color: #374FFE;
+}
+
+h2 {
+	padding: 0.5rem 0;
+	font-weight: 900;
+	color: #374FFE;
+	font-weight: 400;
+}
+
+h3 {
+	padding: 0.5rem 0;
+	font-weight: 900;
+	color: #374FFE;
+	font-weight: 400;
+}
+
+h1:before
